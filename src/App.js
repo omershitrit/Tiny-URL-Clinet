@@ -22,7 +22,7 @@ const App = () => {
 
     const payload = { key: url, value: null };
     axios({
-      url: 'http://localhost:8080/api/save',
+      url: 'https://tiny-url-react.herokuapp.com/api/save',
       method: 'POST',
       data: payload
     }).then(response => {
