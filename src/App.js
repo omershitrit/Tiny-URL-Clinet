@@ -5,9 +5,9 @@ import validator from 'validator'
 const ERROR_MSG = "Please enter a valid url";
 
 const App = () => {
-  const [url, setUrl] = useState("");
-  const [tinyurl, setTinyurl] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [url, setUrl] = useState('');
+  const [tinyurl, setTinyurl] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = e => setUrl(e.target.value);
 
