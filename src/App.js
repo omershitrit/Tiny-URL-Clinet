@@ -11,7 +11,6 @@ const App = () => {
 
   const handleChange = e => setUrl(e.target.value);
 
-  // 24:25 in the video i saved
   const save = () => {
     if (!validator.isURL(url)) {
       setErrorMessage(ERROR_MSG)
