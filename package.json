@@ -13,6 +13,7 @@
     "validator": "^13.5.2",
     "web-vitals": "^1.0.1"
   },
+  "proxy": "https://tiny-url-react.herokuapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
