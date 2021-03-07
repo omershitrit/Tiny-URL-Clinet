@@ -27,8 +27,6 @@ const App = () => {
     }).then(response => {
       // show the tiny url that received from the server!
       setTinyurl(response.data)
-      //        <input className={tinyurl ? '' : 'hidden'} value={tinyurl} />
-      //console.log(response.data);
     }
     ).catch(() => {
       // show an error message
